@@ -1,4 +1,4 @@
-Objective:
+## Objective:
 
 In this challenge, you will create a simple command line interface to add and remove songs to an artist. You will also keep track of genres and featured songs.
 
@@ -9,7 +9,7 @@ install rspec
 
 `gem install rspec`
 
-Requirements:
+## Requirements:
 
 * Complete the song and artist models provided
 * Provide ability to add and remove songs to an artist
@@ -18,7 +18,7 @@ Requirements:
 * Every time you add or delete a song, top genres and song count are recalculated on the artist
 * Upon song addition/removal, the output should be the artist's updated information
 
-Output example:
+## Output example:
 
 > $ artist = Artist.new(...)
 > $ song = Song.new(...)
@@ -29,11 +29,11 @@ Output example:
 * Data only needs to persist while running in the command line
 * Do not add/remove or reorganize files
 
-Notes:
+## Notes:
 
 One commit is _fine_, but it would be nice to see your though process through multiple commits. This is up to you.
 
-To submit:
+## To submit:
 
 * git bundle create marmoset.bundle master
 * Email the marmoset.bundle file to dev@marmosetmusic.com
