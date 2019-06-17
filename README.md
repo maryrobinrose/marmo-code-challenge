@@ -1,8 +1,10 @@
+# Marmoset Tech Team Challenge
+
 ## Objective:
 
 In this challenge, you will create a simple command line interface to add and remove songs to an artist. You will also keep track of genres and featured songs.
 
-Setup:
+## Setup:
 
 use ruby version 2.6.1
 install rspec
