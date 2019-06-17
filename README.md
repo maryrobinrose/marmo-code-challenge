@@ -6,12 +6,14 @@ In this challenge, you will create a simple command line interface to add and re
 
 ## Setup:
 
-clone this repo
-use ruby version 2.6.1
-install rspec
+* clone this repo
+* use ruby version 2.6.1
+* install rspec
 
-`git clone https://github.com/MarmosetMusic/marmo-code-challenge.git`
-`gem install rspec`
+```
+git clone https://github.com/MarmosetMusic/marmo-code-challenge.git
+gem install rspec
+```
 
 ## Requirements:
 
