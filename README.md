@@ -2,7 +2,7 @@
 
 ## Objective:
 
-In this challenge, you will create a simple command line interface to add and remove songs to an artist. You will also keep track of genres and featured songs.
+In this challenge, you will create a simple command line interface to add and remove songs to an artist. You will also keep track of genres and featured songs. Make sure to complete all the requirements listed below.
 
 ## Setup:
 
@@ -15,7 +15,7 @@ install rspec
 
 * Complete the song and artist models provided
 * Provide ability to add and remove songs to an artist
-* An artist can *only* have one featured song, but not required
+* An artist can *only* have one featured song, but it's not required
 * When a song is marked as featured, it should replace any currently featured song
 * Every time you add or delete a song, top genres and song count are recalculated on the artist
 * Upon song addition/removal, the output should be the artist's updated information
