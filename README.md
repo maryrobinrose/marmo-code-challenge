@@ -45,4 +45,4 @@ One commit is _fine_, but it would be nice to see your though process through mu
 
 * `git bundle create marmoset.bundle master`
 * Email the marmoset.bundle file to dev@marmosetmusic.com
-* Subject should be "Marmo Code Challenge - Your Name"
+* Subject should be "Marmo Code Challenge - <YOUR NAME>"
