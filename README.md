@@ -6,9 +6,11 @@ In this challenge, you will create a simple command line interface to add and re
 
 ## Setup:
 
+clone this repo
 use ruby version 2.6.1
 install rspec
 
+`git clone https://github.com/MarmosetMusic/marmo-code-challenge.git`
 `gem install rspec`
 
 ## Requirements:
@@ -39,6 +41,6 @@ One commit is _fine_, but it would be nice to see your though process through mu
 
 ## To submit:
 
-* git bundle create marmoset.bundle master
+* `git bundle create marmoset.bundle master`
 * Email the marmoset.bundle file to dev@marmosetmusic.com
 * Subject should be "Marmo Code Challenge - Your Name"
