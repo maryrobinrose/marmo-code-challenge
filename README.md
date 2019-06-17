@@ -20,7 +20,7 @@ install rspec
 * Every time you add or delete a song, top genres and song count are recalculated on the artist
 * Upon song addition/removal, the output should be the artist's updated information
 
-*Output example:*
+**Output example:**
 
 ```
 $ artist = Artist.new(...)
