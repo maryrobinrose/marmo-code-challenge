@@ -22,10 +22,12 @@ install rspec
 
 ## Output example:
 
-> $ artist = Artist.new(...)
-> $ song = Song.new(...)
-> $ artist.add_song(song) # name "add_song" however you wish
-> $ { id: 1, name: 'Some Artist', song_count: 2, top_genres: ['Folk', 'Pop', 'Rock'], featured_song_id: 3 }
+```
+$ artist = Artist.new(...)
+$ song = Song.new(...)
+$ artist.add_song(song) # name "add_song" however you wish
+$ { id: 1, name: 'Some Artist', song_count: 2, top_genres: ['Folk', 'Pop', 'Rock'], featured_song_id: 3 }
+```
 
 * Follow rspec guide http://betterspecs.org/ to test all relevant methods
 * Data only needs to persist while running in the command line
