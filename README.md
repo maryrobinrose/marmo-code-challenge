@@ -2,7 +2,7 @@
 
 ## Objective:
 
-In this challenge, you will create a simple command line interface to add and remove songs to an artist. You will also keep track of genres and featured songs. Make sure to complete all the requirements listed below.
+In this challenge, you will create a simple program runnable in irb, and tested in rspec. This program will add and remove songs on an artist and also keep track of genres and featured songs. Make sure to complete all the requirements listed below.
 
 ## Setup:
 
@@ -21,8 +21,8 @@ gem install rspec
 * Provide ability to add and remove songs to an artist
 * An artist can *only* have one featured song, but it's not required
 * When a song is marked as featured, it should replace any currently featured song
-* Every time you add or delete a song, top genres and song count are recalculated on the artist
-* Upon song addition/removal, the output should be the artist's updated information
+* Every time you add or delete a song, the artist's top 3 genres and song count are recalculated
+* Upon song addition/removal, the output should print the artist's updated information (see example)
 
 **Output example:**
 
@@ -40,6 +40,7 @@ $ { id: 1, name: 'Some Artist', song_count: 2, top_genres: ['Folk', 'Pop', 'Rock
 ## Notes:
 
 One commit is _fine_, but it would be nice to see your though process through multiple commits. This is up to you.
+We will be looking for code cleanliness, method naming/length, understanding of data design, and appropriate test coverage.
 
 ## To submit:
 
